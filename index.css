@@ -1,0 +1,139 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.content__boxed {
+    background-color: #F5F5F5;
+    padding: 50px 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+
+  @media screen and (min-width: 320px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+
+.title{
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+
+.card{
+    background-color: #fff;
+    padding: 1px 15px 15px 15px;
+    border-radius: 5px;
+    text-align: center;
+    width: 265px;
+
+    @media screen and (min-width: 320px) {
+        margin-bottom: 20px;
+    }
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 20px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 20px;
+    }
+
+}
+
+.currency{
+    color: #173854;
+    font-size: 25px;
+}
+
+.price{
+    color: #173854;
+    font-size: 95px;
+    font-weight: 100;
+}
+
+.time{
+        color: #D3D3E3;
+
+}
+
+.list-group{
+
+    list-style: none;
+}
+.list-group-item{
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+    color: #D3D3E3;
+    line-height: 25px;
+}
+
+.text::before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: -25px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    /* background-color: red; */
+    background-size: 25px 25px;
+  background-image: url('https://as1.ftcdn.net/v2/jpg/02/01/87/06/1000_F_201870651_zZPCVCWR8oEegaAhL6xeQVnSfRrMNkeC.jpg');
+}
+
+.btn {
+padding: 10px 50px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #708090;
+    
+}
+
+a {
+    color: #00BFFF;
+}
+
+.ribbon{
+    position: absolute;
+    top: 10px;
+    right: -22px;
+    padding: 4px 17px;
+    background: #FF0000;
+    transform: rotate(45deg);
+    border-radius: 30px 30px 0px 0px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.active{
+    position: relative;
+    bottom: 15px;
+    border: 3px solid #ADFF2F;
+    height: 420px;    
+    
+}
+
+.activeBtn{
+    background:  #ADFF2F;
+    border: transparent;
+    
+}
